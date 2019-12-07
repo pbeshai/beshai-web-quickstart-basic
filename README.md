@@ -22,8 +22,9 @@ This repo notably does not include other common webpack loaders for importing th
 ```shell
 curl -Lk https://github.com/pbeshai/beshai-web-quickstart-basic/archive/master.zip -o beshai-web-quickstart-basic.zip && \
   unzip beshai-web-quickstart-basic.zip && \
-  rm beshai-web-quickstart-basic.zip && \
-  cd beshai-web-quickstart-basic
+  rm beshai-web-quickstart-basic.zip
+mv beshai-web-quickstart-basic-master prototype94
+cd prototype94
 npm install
 ```
 
