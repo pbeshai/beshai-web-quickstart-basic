@@ -1,0 +1,27 @@
+{
+  "name": "beshai-web-quickstart-basic",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode=production --progress",
+    "lint": "eslint --ext .js,.jsx src --fix",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,css,md,json}'",
+    "start": "webpack-dev-server --open --progress",
+    "start:prod": "serve -s build -l 5000"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.19.1",
+    "serve": "^11.2.0",
+    "source-map": "^0.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}
