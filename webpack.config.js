@@ -9,8 +9,16 @@ const paths = {
   src: path.resolve(__dirname, 'src'),
 };
 
+const isProd = process.env.NODE_ENV === 'production';
+const isDev = !isProd;
+
 module.exports = {
-  entry: './src/index.js',
+  mode: isProd ? 'production' : isDev && 'development',
+  bail: isProd, // Stop compilation early in production
+  entry: {
+    index: path.resolve(paths.src, 'index.js'),
+  },
+  devtool: isDev ? 'cheap-module-eval-source-map' : undefined,
   resolve: {
     alias: {
       src: paths.src,
@@ -18,7 +26,7 @@ module.exports = {
   },
   output: {
     path: paths.build,
-    filename: 'bundle.js',
+    filename: '[name].[hash:8].js',
   },
   devServer: {
     // hot: true // enable hot module reloading (HMR)
