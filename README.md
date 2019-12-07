@@ -1,6 +1,6 @@
 # beshai-web-quickstart-basic
 
-This repo provides a starting point for spinning up quick web-based prototypes using modern javascript and webpack.
+This repo provides a starting point for spinning up quick web-based prototypes using modern javascript and webpack. See [beshai-web-quickstart-full](https://github.com/pbeshai/beshai-web-quickstart-full) for a more feature rich version.
 
 ## Features
 
@@ -8,7 +8,7 @@ This repo provides a starting point for spinning up quick web-based prototypes u
 * webpack-dev-server with easy configuration of hot module reloading
 * barebones eslint configuration that defers to prettier
 * prettier configured
-* jsconfig provided to integrate better with VS Code
+* jsconfig provided to integrate better with [VS Code](https://code.visualstudio.com/)
 * optional absolute imports by prefixing with `src`. e.g. `import bar from 'src/foo/bar'`
 
 ## Does Not Include
