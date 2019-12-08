@@ -1,6 +1,17 @@
-# beshai-web-quickstart-basic
 
-This repo provides a starting point for spinning up quick web-based prototypes using modern javascript and webpack. See [beshai-web-quickstart-full](https://github.com/pbeshai/beshai-web-quickstart-full) for a more feature rich version.
+<div align="center">
+  <h1>Beshai Web Quickstart - Basic</h1>
+  <p>
+    Quickly spin up web-based prototypes using modern javascript, and minimal webpack
+  </p>
+  <p>
+    Looking for more out of the box? Try 
+    <a href="https://github.com/pbeshai/beshai-web-quickstart-full"
+      >beshai-web-quickstart-full</a
+    >.
+  </p>
+  <hr />
+</div>
 
 ## Features
 
