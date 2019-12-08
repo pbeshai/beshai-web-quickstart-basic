@@ -49,4 +49,16 @@ module.exports = {
       { from: paths.public, to: paths.build, ignore: ['index.html'] },
     ]),
   ],
+
+  // don't use node modules in browser even if libraries want them (provide empty mocks)
+  node: {
+    child_process: 'empty',
+    dgram: 'empty',
+    dns: 'mock',
+    fs: 'empty',
+    http2: 'empty',
+    module: 'empty',
+    net: 'empty',
+    tls: 'empty',
+  },
 };
