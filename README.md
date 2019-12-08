@@ -17,7 +17,9 @@ This repo notably does not include other common webpack loaders for importing th
 
 ## Installation
 
-[Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-basic/archive/master.zip) then run `npm install`
+[Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-basic/archive/master.zip) then run `npm install`. 
+
+Replacing **prototype94** with the name of your project, you can copy and paste the following to install:
 
 ```shell
 curl -Lk https://github.com/pbeshai/beshai-web-quickstart-basic/archive/master.zip -o beshai-web-quickstart-basic.zip && \
