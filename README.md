@@ -19,7 +19,7 @@ This repo notably does not include other common webpack loaders for importing th
 
 [Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-basic/archive/master.zip) then run `npm install`.
 
-You can copy and paste the following to install. It will prompt you for a project name which set the name of the directory created:
+You can copy and paste the following to install. It will prompt you for a project name which sets the name of the directory created:
 
 ```shell
 echo -n "Enter project name: " && read projectName
